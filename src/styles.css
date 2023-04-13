@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: rgba(174, 216, 218, 0.205);
+  min-width: 20ch;
+  max-width: 100%;
+  word-wrap: break-word;
+  white-space: normal;
+  resize: none;
+  vertical-align: bottom;
+  line-height: normal;
+}
+
+tr:hover {
+    background-color: rgba(0, 0, 255, .1) !important;
+}
