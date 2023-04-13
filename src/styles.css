@@ -24,3 +24,10 @@ textarea {
 tr:hover {
     background-color: rgba(0, 0, 255, .1) !important;
 }
+
+table {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
